@@ -1,0 +1,283 @@
+.header-scroll {
+    position: fixed;
+    height: 56px;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #ED5565;
+    animation: scrollDown ease 0.75s;
+    z-index: 999;
+}
+
+.scroll-nav > li:hover > a {
+    text-shadow: 0 0 28px #ED5565, 0 0 30px #ED5565
+}
+
+.scroll-nav > li:hover  {
+    border-width: 3px 0 0 0;
+    border-style: solid;
+    border-color: #ED5565;
+}
+
+.subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 3px #ED5565;
+    top: 100%;
+    left: 0;
+    min-width: 12.4rem;
+}
+
+.subnav li {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 12px;
+    text-align: left;
+}
+
+.subnav li a {
+    display: block;
+    font-size: 18px;
+}
+
+li:hover .subnav {
+    display: block;
+}
+
+.subnav li:hover{
+    background-color: #ED5565;
+}
+
+
+@keyframes scrollDown {
+    from {
+        opacity: 0;
+        transform: translateY(-48px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header-scroll {
+    z-index: 9999;
+}
+
+.scroll-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.scroll-nav > li > a {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.scroll-nav > li {
+    position: relative;
+    line-height: 53px;
+    border-width: 3px 0 0 0;
+    border-style: solid;
+    border-color: #fff;
+}
+
+/* slider */
+.slider{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.register {
+    color: #333;
+    width: 24rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 1.4rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #94a3b8;
+    border-bottom-style: solid;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.register h1 {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #475569;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.register p {
+    font-size: 18px;
+
+}
+
+.register input {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #475569;
+    margin-top: 4.4px;
+    margin-bottom: 1.4rem;
+    font-size: 16px;
+}
+
+.form_error {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.form_error span {
+    width: 100%;
+    color: #D83D5A;
+    font-size: 16px;
+}
+
+.form_error input {
+    border: 1px solid #D83D5A;
+}
+
+.reg_box {
+    width: 100%;
+}
+
+#reg_btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: rgb(220,38,38);
+    border-color: rgb(226,232,240);
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+}
+
+#reg_btn:hover {
+    cursor: pointer;
+}
+
+
+/* signin nofication */
+.reg-nofi {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    z-index: 9999;
+    
+}
+
+.reg-nofi.close {
+    display: none !important;
+}
+
+.reg-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    animation: scrollDownNofi ease 1s;
+}
+
+@keyframes scrollDownNofi {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+  }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+  }
+}
+
+.reg-container .reg-nofi-box {
+    background-color: #fff;
+    padding: 1.5rem 1.2rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #ED5565;
+    border-bottom-style: solid;
+    border-radius: 5px;
+    
+}
+
+.reg-nofi-box .box-top {
+    position: relative;
+    display: flex;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #000;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.box-top .icon-nofi {
+    font-size: 26px;
+    color: #ED5565;
+}
+
+.box-top p {
+    padding-left: 0.8rem;
+}
+
+.box-top .icon-close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #000;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0.3rem;
+    margin-top: -1rem;
+    border-radius: 5px;
+}
+
+.box-top .icon-close:hover {
+    background-color: #ED5565;
+    color: #fff;
+}
+
+.box-content{
+    position: relative;
+    margin-top: 1.2rem;
+    margin-bottom: 2.8rem;
+}
+
+.box-content a {
+    position: absolute;
+    margin-top: 1rem;
+    right: 0;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: #ED5565;
+    color: #000;
+    letter-spacing: 1px;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+
+.box-content a:hover {
+    background-color: #ED5565;
+    color: #fff;
+}

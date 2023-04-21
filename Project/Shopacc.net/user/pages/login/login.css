@@ -1,0 +1,190 @@
+.header-scroll {
+    position: fixed;
+    height: 56px;
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-width: 0 0 2px 0;
+    border-style: solid;
+    border-color: #ED5565;
+    animation: scrollDown ease 0.75s;
+    z-index: 9999;
+}
+
+.scroll-nav > li:hover > a {
+    text-shadow: 0 0 28px #ED5565, 0 0 30px #ED5565
+}
+
+.scroll-nav > li:hover  {
+    border-width: 3px 0 0 0;
+    border-style: solid;
+    border-color: #ED5565;
+}
+
+.subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 3px #ED5565;
+    top: 100%;
+    left: 0;
+    min-width: 12.4rem;
+}
+
+.subnav li {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 12px;
+    text-align: left;
+}
+
+.subnav li a {
+    display: block;
+    font-size: 18px;
+}
+
+li:hover .subnav {
+    display: block;
+}
+
+.subnav li:hover{
+    background-color: #ED5565;
+}
+
+
+@keyframes scrollDown {
+    from {
+        opacity: 0;
+        transform: translateY(-48px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header-scroll {
+    z-index: 9999;
+}
+
+.scroll-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.scroll-nav > li > a {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.scroll-nav > li {
+    position: relative;
+    line-height: 53px;
+    border-width: 3px 0 0 0;
+    border-style: solid;
+    border-color: #fff;
+}
+
+/* slider */
+.slider{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    color: #333;
+    width: 24rem;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 1.4rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #94a3b8;
+    border-bottom-style: solid;
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.login h1 {
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #475569;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.login p {
+    font-size: 18px;
+
+}
+
+.login input {
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #475569;
+    margin-top: 4.4px;
+    margin-bottom: 1.4rem;
+    font-size: 16px;
+}
+
+.form_error {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.form_error span {
+    width: 100%;
+    color: #D83D5A;
+    font-size: 16px;
+}
+
+.form_error input {
+    border: 1px solid #D83D5A;
+}
+
+.log_box {
+    width: 100%;
+}
+
+#log_btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: rgb(220,38,38);
+    border-color: rgb(226,232,240);
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    border: 0;
+}
+
+#log_btn:hover {
+    cursor: pointer;
+}
+
+.regis {
+    margin-top: 1.2rem;
+    width: 100%;
+    
+    display: flex;
+}
+
+.regis a {
+    width: 100%;
+    padding: 0.6rem;
+    text-align: center;
+    font-size: 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}

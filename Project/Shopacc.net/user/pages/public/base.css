@@ -1,0 +1,72 @@
+/* common */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: inherit;
+    color: #000;
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(/shopacc.net/user/access/font/familyFont/Oswald-VariableFont_wght.ttf);
+}
+
+html {
+    word-spacing: 1px;
+    font-family: Oswald;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+#main {
+    position: relative;
+    
+}
+
+/* footer */
+#main-footer {
+    background-color: #1b1a1a;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main-footer h2,
+#main-footer h4,
+#main-footer p {
+    color: #fff;
+}
+
+#main-footer .footer-box {
+    width: 33.3333333%;
+    margin: 1.5rem 4.5rem;
+    border-width: 2px 2px 2px 2px;
+    border-style: solid;
+    border-color: #ED5565;
+    text-align: center;
+}
+
+.footer-box img{
+    margin-top: -5.5rem;
+    width: 60%;
+    height: 50%;
+}
+
+.footer-box h4 {
+    margin-top: -4rem;
+    margin-bottom: 1rem;
+}
+
+
+.footer-about {
+    width: 22%;
+}
+
+.footer-contact {
+    width: 20%;
+    margin: 0 4.5rem;
+}

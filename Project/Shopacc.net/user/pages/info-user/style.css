@@ -1,0 +1,200 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: auto;
+    margin: 0 121;
+    border-bottom: 1px solid #333;
+}
+.head-info{
+    width: 1136px;
+    height: 36px;
+    padding: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto;
+    position: relative;
+}
+
+.head-info img{
+    width: 60px;
+    position: absolute;
+    top: 0;
+}
+
+.head-nav{
+    display: flex;
+    top: 0;
+    float: right;
+    list-style: none;
+    box-sizing: border-box;
+}
+.head-nav li{
+    padding: 8px 12px;
+
+}
+
+.info-user{
+    text-decoration: none;
+    padding: 0 12px;
+    border: 1px solid;
+    margin: 0 10px;
+    background-color: #ef4444;
+    color: #fff;
+    line-height: 32px;
+}
+.logout{
+    text-decoration: none;
+    padding: 0 12px;
+    border: 1px solid;
+    margin: 0 10px;
+    background-color: #334155;
+    color: #fff;
+    line-height: 32px;
+}
+.info-user:hover{
+    background-color: rgb(182, 6, 6);
+}
+
+.body{
+    width: 100%;
+    position: relative;
+}
+
+.body-info{
+    width: 1152px;
+    height: 768px;
+    padding: 32px 0;
+    margin: auto;
+}
+
+.body-avata{
+    width: 100%;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.body-avata img{
+    width: 124px;
+    border: 2px solid #333; 
+    
+}
+.body-info .id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.body-content{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 60px;
+    }
+.container-info h3,
+.information h3{
+    padding: 0 12px;
+    border-left: 4px;
+    margin-bottom: 8px;
+    font-size: 20px;
+    border-top: 1px solid;
+    padding-top: 0.4rem;
+}
+
+.body-container{
+    width: 24%;
+    list-style: none;
+}
+.container-info{
+    width: auto;
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.container-info li{
+    padding: 4px 0;
+    border-bottom: 1px;
+    padding-left: 16px;
+    border-top: 1px solid;
+    margin: 1.5rem 0;
+    font-size: 18px;
+}
+.container-info li a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+.body-container-info{  
+    list-style: none;
+    border-left: 1px solid;
+    }
+
+.information{
+    list-style: none;
+    width: 876px;
+    }
+
+.information li{
+    padding: 4px 0;
+    padding-left: 16px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    
+}
+
+
+.reset_password{
+    display: none;
+}
+
+.pass-old,
+.pass-new{
+    width: 166px;
+    height: 24px;
+    padding: 4px 12px;
+    border: 1px solid #333;
+    margin: 8px;
+}
+
+.resetpass-btn{
+    width: 110px;
+    height: 34px;
+    padding: 4px 12px;
+    border: 1px solid #333;
+    margin: 8px;
+    background-color: #ef4444;
+    color: #fff;
+    font-weight: 600;
+}
+
+.information input {
+    padding: 0.4rem;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 16px;
+}
+
+.information button {
+    width: 9rem;
+    padding: 0.6rem;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #ef4444;
+    color: #fff;
+    border-width: 1px;
+}
+
+.information button:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
