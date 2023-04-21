@@ -1,0 +1,7 @@
+MÔ HÌNH QUY TRÌNH PHẦN MỀM
+BT: So sánh các mô hình quy trình phát triển phần mềm
+- Hướng tài liệu: 3 đầu
+- Lăp, tăng tiến: 3 tiếp
+- CUối: pp phát triển nhanh
+yêu cầu: +/ cần rõ ràng từ đầu
+	 -/ k cần rõ ràng từ đầu

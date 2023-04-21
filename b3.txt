@@ -1,0 +1,50 @@
+3. Quản lý dự án phần mềm: nhiệm vụ 1
+Chủ đề: Những hoạt động quản lý chung 
+	Lập kế hoạch dự án	
+	Lập lịch trình dự án
+	Quản lý rủi ro
+
+- Liên quan đến những hoạt động để đảm bảo phần mềm được phân phối:
+	đúng thời gian
+	trong phạm vi ngân sách
+	theo đúng lịch trình
+	phù hợp với những yêu cầu chức năng, chất lượng của khách hàng và công ty phát triển
+- Một số hoạt động quản lý chung
+	Viết đề xuất dự án
+	Lựa chọn và đánh giá nhân sự
+	Lập kế hoạch dự án
+	Giám sát dự án và duyệt lại
+	Viết báo cáo và trình bày(kết quả)
+
+
+- Lập kế hoạch dự án
+	Thường là hoạt động quản lý tốn nhiều thời gian nhất kiên tịch từ lúc hình thành khái niệm ban đầu đến khi phân phối hệ thống
+	Các kế hoạch phải thường xuyên được cập nhật khi có thông tin mới
+	Kế hoạch dự án đề cập đến
+		Các nguồn lực có sẵn cho dự án
+		Phân chia công việc
+		Lịch trình cho công việc
+
+
+HDD3: Quy trình lập lịch trình dự án: Bảng thời lượng tác vụ và những phụ thuộc
+	Biểu đồ Gantt
+	PERT:
+		Mạng hoạt động (1):
+			Chỉ ra sự lệ thuộc giữa các tác vụ khác nhau tạo thành dự án:
+				Công việc: các việc cần làm
+				Sự kiện: kết quả công việc
+		Mạng hoạt động (2):
+			Có 2 kiểu biểu diễn:
+				AoA (activity on arrow): Các mũi tên chỉ các công việc, các nút chỉ sự kiện
+				AoN (activity on node)
+	Phương pháp đường găng CPM
+		Công việc găng và đường găng
+			Công việc găng là các công việc có trữ lượng thời gian (thời gian tự do ) bằng 0
+			Đường găng là đường dài nhất đi xuyên mạng hoạt động, từ nút bắt đầu tới nút kết thúc, và đi qua các công việc găng
+
+PHƯƠNG PHÁP TÍNH ĐƯỜNG GĂNG CPM:
+	
+			
+
+
+
